@@ -240,3 +240,30 @@ span{
     font-size: 1.6rem;
     margin: 1rem 0rem 3rem;
 }
+.scroll-up {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    cursor: pointer;
+}
+
+.up-long a{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 4rem;
+    height: 4rem;
+    background: transparent;
+    border: .2rem solid var(--snd-bg-color);
+    border-radius: 50%;
+    font-size: 2rem;
+    color: var(--main-color);
+    margin: 3rem 1.5rem 3rem 0;
+    transition: .5s ease;
+}
+
+.up-long a:hover{
+    border-color: var(--main-color);
+    transform: scale(1.02);
+    
+}
